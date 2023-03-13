@@ -1,0 +1,155 @@
+
+{% extends "base.html" %} 
+
+{% block content%}
+    <!-- Banner -->
+    <section class="hero">
+        <div class="container h-100">
+            <div class="row" >
+                <!-- Text -->
+                <div class="col-md-6" style="padding-top: 80px;">
+                    <div class="banner-text">
+                        <h1 class="text-dark">USE AI TO PREDICT TOMATO LEAF DISEASES</h1>
+                        <p class="text-secondary">With leaf check, you can check the tomato leaf disease without need of professional 
+                            with you device"
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <a href="http://localhost:5001/#disease" class="btn btn-success">Check Disease</a>
+                        <!-- <a href="#" class="btn btn-outline-success ms-3">Check Disease</a> -->
+                    </div>
+                </div>
+                <!-- Image -->
+                <div class="col-md-6">
+                    <img src="{{ url_for('static', filename='images/a_moment_to_relax.svg') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner end-->
+
+    <!-- About -->
+    <section class="about-section bg-color" id="about">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-offset-2 col-sm-12 col-xs-12">
+                    <h3>Tomato Diseases</h3>
+                    <p>Tomato diseases affect the growth of their respective species. In addition, some research gaps are
+                        identified from which to obtain greater transparency for detecting diseases in plants, even
+                        before their symptoms appear clearly.
+                        diagnosis is one of the most important aspects of a plant pathologist's training. Without proper
+                        identification of the disease and the disease-causing agent, disease control measures can be a
+                        waste of time and money and can lead to further plant losses. Proper disease diagnosis is
+                        necessary.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form Image Input -->
+    <!--Image-->
+    <section class="form-section" id="disease">
+        <div class="container text-center text-dark">
+            <h3>Choose Tomato Leaf Image</h3>
+            <div class="row">
+                <form id="upload-form" action="/submit" method="post" enctype="multipart/form-data" onsubmit="return validateForm()"> 
+                    <div id="drop-zone" class="{% if tomato == False %}error{% endif %}">
+                        <input type="file" id="actual-btn" hidden name="image" />
+                        <label for="actual-btn" class="btn  btn-outline-success">Choose File</label>
+                        <span id="file-chosen">No file chosen</span>
+                    </div>
+                    {% if tomato == False %}
+                    <div id="popup">
+                        <div class="alert">
+                            <span class="closebtn" onclick="closeAlert()">&times;</span>
+                            <strong>Error:</strong> {{ message }}
+                        </div>
+                    </div>
+                    {% endif %}
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="form-section" id="disease">
+        <div class="container text-center">
+            
+            <div class="p-5 bg-white shadow rounded-lg text-center" style="height: 95%;">
+                <h3>Prevent Tomato Disease follow below steps:</h3>
+                <ul class="text-dark" style="list-style: none;">
+                    <li>Follow Good Sanitation Practices.</li>
+                    <li>Fertilize to Keep Your Plants Healthy.</li>
+                    <li>Inspect Plants for Diseases Before You Bring Them Home.</li>
+                    <li>Allow the Soil to Warm Before Planting.</li>
+                    <li>Ensure a Healthy Vegetable Garden By Rotating Crops.</li>
+                    <li>Provide Good Air Circulation</li>
+                    <li>Remove Diseased Stems and Foliage</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<style>
+    /* Alert Popup */
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f44336;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+/* Alert Close Button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+</style>
+<script>
+    const actualBtn = document.getElementById('actual-btn');
+
+    const fileChosen = document.getElementById('file-chosen');
+
+    actualBtn.addEventListener('change', function () {
+        fileChosen.textContent = this.files[0].name
+    })
+
+    function validateForm() {
+        
+        var fileInput = document.getElementById('actual-btn');
+        var filePath = fileInput.value;
+        var allowedExtensions = /(\.jpg|\.jpeg|\.png|\.webp)$/i;
+        if (!allowedExtensions.exec(filePath)) {
+            alert('Please upload file having extensions .jpeg/.jpg/.png only.');
+            fileInput.value = '';
+            return false;
+        }
+        return true;
+    }
+
+    // Close Alert Popup
+    function closeAlert() {
+        document.getElementById("popup").style.display = "none";
+    }
+</script>
+
+{% endblock %}

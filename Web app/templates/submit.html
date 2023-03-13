@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>
+  <!-- Card container -->
+  <div class="container ms-auto mt-5">
+      <div class="card">
+          <div class="card-body">
+              <div class="row">
+                  <div class="col-lg-5 col-md-5 col-sm-6">
+                      <div class="white-box text-center  m-5">
+                          <img src={{image_url}}  class="card-img img-responsive mx-auto d-block" style=" border: 1px solid green;">
+                      </div>
+                  </div>
+                  <div class="col-lg-7 col-md-7 col-sm-6">
+                      <h4 class="box-title  text-center mt-5 text-success">Predicted Disease</h4>
+                      <div>
+                          <div class="progress custom-progress">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="{{confidence}}" aria-valuemin="0" aria-valuemax="100" style="max-width: {{confidence}}%;">
+                              <span class="title d-block text-center w-100" style="font-size: 1rem;">{{pred}} {{confidence}}%</span>
+                              </div>
+                          </div>
+                        
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Card container end -->
+  <div>
+    <div class="container">
+      <!-- For demo purpose -->
+        <div class=" row ">
+          <div class="col mx-auto">
+            <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;">
+                <h3 class="text-center desc">Brief Description</h3>
+                <p>{{description}}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mx-auto">
+            <div class="p-5 bg-white shadow rounded-lg" style="height:95%">
+                <h3 class="text-center rec">Prevention</h3>
+              <p>
+                {{prevention}}
+              </p>
+            </div>
+          </div>
+
+  
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock  %}

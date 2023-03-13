@@ -1,0 +1,120 @@
+Tomato Diseases in Nepal
+
+Bacterial Spot
+Bacterial Speck
+
+Tomato leaf curl virus - First fond in Kudule, Baglung. [Viral Diseases of Crop plants in Nepal, Arjun Rayamajhi)]
+
+ChatGPT
+Tomatoes can be affected by various leaf diseases in Nepal, which can significantly reduce the yield and quality of the crop. Some of the most common tomato leaf diseases in Nepal include:
+
+    Early blight: This is a fungal disease that can cause brown spots on the lower leaves of the tomato plant. As the disease progresses, the spots may enlarge and merge, eventually causing the leaves to turn yellow and drop.
+
+    Late blight: This is a fungal disease that can cause dark, oily spots on the leaves of the tomato plant. The spots may enlarge and become brown, and the leaves may eventually become yellow and wilt. This disease is more prevalent during the cooler and wetter seasons.
+
+    Septoria leaf spot: This is a fungal disease that can cause small, circular spots on the leaves of the tomato plant. The spots may have a gray or brown center with a yellow halo. The leaves may eventually turn yellow and drop.
+
+    Bacterial spot: This is a bacterial disease that can cause dark, water-soaked spots on the leaves of the tomato plant. The spots may become necrotic and turn brown or black, and the leaves may eventually drop. This disease is more prevalent during the rainy season.
+
+    Tomato mosaic virus: This is a viral disease that can cause mottled or streaked patterns on the leaves of the tomato plant. The leaves may also become distorted and have a wrinkled appearance.
+
+These are just a few examples of the most common tomato leaf diseases in Nepal. Farmers and gardeners in Nepal should be vigilant for signs of disease and take appropriate measures to prevent or control their spread, such as practicing good crop rotation, using disease-resistant tomato varieties, and applying appropriate fungicides or bactericides.
+
+
+Diseases:-
+
+    Bacterial Diseases:-
+
+    Bacterial wilt
+
+C.O:- Pseudomonas solanacearum
+
+It is the most serious disease in tropical as well as temperate regions. Lower leaves may drop before wilting. Plants are stunted with yellow leaves. The disease is known to be soil borne. Use of resistant varieties (Arka Alok, Arka Vardhan, RT-1, BT-10, BRH-2), crop rotation and application of oil cake, neem cake are the control measures for controlling the disease.
+
+(b) Fungal Diseases:-
+
+    i) Damping off
+
+C.O:-Pythium ultimum, Rhizoctonia solani, Phytophthora parasitica.
+
+The stem of the seedling decays at the soil surface and finally it collapses due to shrinking of tissues of stem near the ground. Seed treatment with Cerasan or Copper Oxychloride @ 2 g/Kg and spraying of seedlings with Captan or Phytolon are effective in controlling post-emergence damping off. The disease is more serious when excess of water is supplied and temperature is high.
+
+    Late blight
+
+C.O:- Phytophthora infestans,
+
+Brown to purple black lesions occurs in the leaflet, petiole, fruit and stem. Application of Dithane Z-78 is effective at early stage.
+
+    Fusarium wilt
+
+C.O:- Fusarium oxysporum f sp lycopersici.
+
+This disease is common in warm humid climate. Optimum temperature of 280C is suitable for fungi growth. Fungus is a soil inhabitant. Symptoms consists of clearing of veinlet, dropping of petiole, yellowing of lower leaves leading to death of plant at later stage. Crop rotation, use of resistant varieties (Marglobe, Pant Bahar, Rutgers) is sure and effective control.
+
+    Early blight
+
+C.O:- Alternaria solani
+
+The fungus is soil borne. Circular angular dark brown spots appear on leaves, stem and fruit. Concentric circles of 2 – 5 mm in diameter are formed at advanced stage. Seed treatment in hot water at 52 – 550C and spray of Diathane Z-78 or M-45 and Zineb are helpful in controlling the diseases.
+
+    Septoria leaf blight
+
+C.O:-Septoria lycopersici.
+
+This disease may occur on plants of any age and appear as water soaked spots, the centre of which later turn gray surrounded by darker margins. Clean cultivation, crop rotation and spraying or dusting with copper compounds helps to control this disease.
+
+(c) Viral Diseases:-
+
+    i) Tomato mosaic virus
+
+This diseases cause mild mottling of foliage. Sometimes leaf blade is reduced to fern like appearance. Yellow chlorosis is more prominent. Fruits are also distorted. This disease spreads through debris of infected plants through soil and mechanical means. This disease can be controlled by use of resistant varieties, proper sanitation and avoiding contact by smokers.
+
+    ii) Leaf curl virus
+
+This disease is more serious during autumn crop. This disease is characterized by curling of leaves, reduction in leaf size, excessive branching and stunted plant growth. The virus spread through a vector whitefly (Bemisia tabaci). The disease can be checked by control of whitefly by spraying of insecticide like Rogor and Dimacron 8 – 10 days interval. Use resistant varieties like H-24.
+
+Pests:-
+
+    Tomato fruit worm (Heliothis asmigera)
+
+Moths are brown to yellowish brown in color. Caterpillar are green in color. They attack during October – March. They roll over the leaves and find their way to fruits where they cut holes. Pest is controlled by picking the fruits and spraying of contact insecticides like Carbaryl 0.2% and Inchlodrophos 0.25%.
+
+    Jassids (Empoasca devestan)
+
+Jassids suck the sap from the leaves causing curling of leaves. Sprays of Eldrin, Parathon are effective in controlling.
+
+    Whitefly (Bemisia tabaci)
+
+They are minute white pigmented insects which suck sap of plants.
+
+Control measures are discussed in leaf curl disease control.
+
+Nematodes:-
+
+Three species Meloidogyne incognita, M. aerenaria and M. javanica are common in tomato. Symptoms consist of discoloration to pale than normal unthrifty development, dwarfness and wilting. The disease can be controlled by use of resistant varieties like P-120, Nematax, Anahu, Arkisen, VNF-8, FMH-2, S-120, Hisar Lalit etc. Use of dichloropropan dichloropropane mixture (DD) @ 2801/hac. and Dimethoate are recommended. (Nodules are formed on the roots.)
+
+Disorders:-
+
+    Blossom end rot
+
+Water soaked spots appear at the point of attachment and enlarge rapidly. This disease occurs due to reduced soil moisture especially at fruit development stage. This disease also occurs due to calcium deficiency. Any cultural practices, which conserve soil moisture and spraying of calcium help in controlling diseases.
+
+    Puffiness
+
+The affected fruit are light in weight and the fruits are cut open the large hollow cavity are noticed. The fruits are somewhat angular in shape and surface is flattened. Puffiness is associated with poor pollination and abortion of ovules due to adverse environmental conditions particularly high and low temperature.
+
+    Cracking
+
+Cracking of the surface of fruits at the stem end is the common occurrence and often results in large losses. The cracks are of two kinds; one which radiates from the stem end and other develops concentrically around the shoulder of the fruit. Radial cracking is more common and causes greater loss than concentric cracking. Besides these, cuticular cracking is also often found on the skin of fruits. There are 3 factors responsible for cracking;
+
+    Long drought period followed by heavy rain or irrigation.
+    Boron deficiency (soil application of borax @ 15 – 20 Kg/hac. or spraying of borax (2.5%) 2 – 3 times at fruiting stage.
+    Genetic factors (Use resistant cultivars like Sioux, Manalucie, crack proof)
+
+    Cat face
+
+The damaged fruits are distinguished by the distortion of the blossom end rot and have ridges, furrows, indentations and blotches. The cause of cat face is unknown but some scientists reported it might be some genetic factors.
+
+    Sun injury
+
+The fruit surface exposed to the sun may become yellow or develop brown burnt areas. This may be reduced by the use of varieties with abundant foliage so as to cover the fruits with leaves.

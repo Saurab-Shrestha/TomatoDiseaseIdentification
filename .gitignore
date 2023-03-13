@@ -1,0 +1,6 @@
+# Ignore .pth files
+*.pth
+
+# Ignore datasets
+/Dataset/
+/Notoebook/Dataset/
